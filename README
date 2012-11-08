@@ -1,0 +1,13 @@
+
+A Jython interface for simple Subject-Verb-Object Extraction from Stanford Phrase Structure tree
+
+Running Instructions
+1) install jython - Eg: sudo apt-get install jython
+2) Install stanford Parser :(http://nlp.stanford.edu/software/stanford-parser-2012-07-09.tgz)
+      Extract and unzip to a location -- tar -xzf stanford-parser-2012-07-09.tgz
+      
+3) Add Stanford Parser to Environment Variable
+     echo "export STANFORD_PARSER_HOME=./stanford-parser-2012-07-09" >> ~/.bashrc
+
+4) Run jython parse.py
+      
